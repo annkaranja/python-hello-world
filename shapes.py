@@ -3,10 +3,10 @@ class Circle:
 	    self.r=r
 	
     def area(self):
-        return 3.142**self.r
+        return self.r**2*3.142
 
     def perimeter(self): 
-        return 2*(3.142*self.r)
+        return 2*self.r*3.142
 
     print(area())
     print(perimeter()) 
@@ -45,8 +45,8 @@ class Sphere:
 	def __init__(self,r):
 	    self.r=r
  
-	# def surface_area(self):
- #        return 4*(3.142*self.r*self.r) 
+	def surface_area(self):
+        return 4*(3.142*self.r*self.r) 
 
 	def volume(self):
    		return 4/3*(3.142*self.r*self.r*self.r)     
