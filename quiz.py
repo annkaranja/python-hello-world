@@ -43,12 +43,12 @@ def remove_duplicate():
            print(new_list())
 
 def list_comprehension();
-  a=dict()
-  b=(100,110,120,130,140,150)
-  for x in b:
-  a[x]=x%3
-  return x
-  print(x())
+    a=dict()
+    b=(100,110,120,130,140,150)
+    for x in b:
+    a[x]=x%3
+    return x
+    print(x())
 
 
 
