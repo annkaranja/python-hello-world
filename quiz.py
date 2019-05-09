@@ -18,13 +18,13 @@ def squares():
 	square=[for x**2 x in range(149,159)]
     print(square)
 
-def	nest():
-	list_x = [[1,2],[3,4],[5,6]]
-	flat=[]
-	for list_x in nested:
-              for m in list_x
-              0=m
-              flat.append(0)
+def nest():
+    list_x = [[1,2],[3,4],[5,6]]
+    flat=[]
+    for list_x in nested:
+               for m in list_x
+               0=m
+               flat.append(0)
 
 def divisible_by_three(): 
     a=[]
@@ -35,12 +35,12 @@ def divisible_by_three():
     print(divisible())
 
 def remove_duplicate():
-  x = ['a','b','a','e','d','b','c','e','f','g','h']
-new_list = []
-for item in x:
-    if item not in new_list:
-        new_list.append(item)
-        print(new_list())
+    x = ['a','b','a','e','d','b','c','e','f','g','h']
+    new_list = []
+    for item in x:
+        if item not in new_list:
+           new_list.append(item)
+           print(new_list())
 
 def list_comprehension();
   a=dict()
